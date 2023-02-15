@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer async></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1> Shopping List</h1>
+        <div class="list-container"></div>
+
+            <form id="shop-form">
+                
+                <input type="text" name="add-item" id="add-item"> 
+                <button id="submitButtom" type="button" onclick="addNew()"> Add Item </button>
+                <button class="clearButton" type="button" onclick="reload()"> Clear </button>
+            
+            </form>
+   </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 171, 18);
+    height: 600px;
+    width: 400px;
+    border-radius: 14px;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    position: relative;
+}
+
+.list-container{
+    justify-content: space-between;
+}
+
+ h1{
+    font-family: 'Amatic SC', cursive;  
+    font-size: 50px;
+    margin-bottom: 0;
+    color: rgb(247, 245, 242);
+ }
+
+button{
+    border-radius: 12px;
+    border-style: none;
+    width: 70px;
+    padding: 4px;
+    background-color: rgb(85, 178, 240);
+    font-family: 'Amatic SC', cursive; 
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: rgb(198, 226, 235);
+    color: rgb(247, 245, 242);
+}
+
+input{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#shop-form{
+    margin-top: 20px;
+    position: absolute;
+    bottom: 30px;
+}
